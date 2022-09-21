@@ -1,0 +1,9 @@
+ $  java -cp commons-lang3-3.12.0.jar;amqp-client-5.16.0.jar;slf4j-api-1.7.26.jar;slf4j-simple-1.7.26.jar;. Send
+
+ $  java -cp commons-lang3-3.12.0.jar;amqp-client-5.16.0.jar;slf4j-api-1.7.26.jar;slf4j-simple-1.7.26.jar;. Recv
+
+//compile below
+
+ $  javac -cp amqp-client-5.16.0.jar Send.java
+
+ $  javac -cp commons-lang3-3.12.0.jar;amqp-client-5.16.0.jar;. Send.java Recv.java 
